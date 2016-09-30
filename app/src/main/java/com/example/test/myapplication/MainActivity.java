@@ -13,11 +13,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         image = findViewById(R.id.image);
+
+	//comment
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         image.setVisibility(View.GONE);
+
+	//comment2
+	//
+	//comment3
     }
 }
